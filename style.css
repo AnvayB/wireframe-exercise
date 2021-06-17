@@ -3,7 +3,6 @@ header {
   justify-content: center;
   align-items: center;
   background-color: grey;
-
 }
 
 body {
@@ -12,8 +11,6 @@ body {
   margin-right: auto;
   background-color: white;
   box-sizing: border-box;
-
-  
 }
 
 nav ul {
@@ -67,7 +64,6 @@ section article {
   top: 15px;
   width: 960px;
   height: 370px;
-  
   /* background-color: pink; */
 }
 h2 {
