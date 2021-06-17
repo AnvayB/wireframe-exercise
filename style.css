@@ -1,5 +1,4 @@
 header {
-  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +7,6 @@ header {
 }
 
 body {
-  /* width: 960px; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +19,7 @@ body {
 nav ul {
   display: flex;
   justify-content: space-evenly;
-  color: black;
+  color: white;
   margin-left: 85px;
   margin-right: 190px;
 
@@ -36,17 +34,14 @@ nav li, a{
 
 /* SECTIONS: */
 section:nth-child(1) {
-  background-color: blue;
-  /* padding-top: 2%; */
-  /* padding-bottom: 2%; */
+  /* background-color: blue; */
   display: flex;
   justify-content: center;
+  padding-top: 15px;
 }
 
 section:nth-child(2) {
   /* background-color: red; */
-  /* padding-left: 2.5%;
-  padding-right: 2%; */
   display: flex;
   justify-content: center;
 }
@@ -58,12 +53,12 @@ section img {
 section:nth-child(3) {
   width: 960px;
   height: 400px;
-  margin-left: auto;
+  margin-left: 465px;
   margin-right: auto;
   /* background-color: green; */
   display: flex;
   justify-content: center;
-  left: -30%;
+  padding-bottom: 15px;
 }
 
 section article {
@@ -72,11 +67,16 @@ section article {
   top: 15px;
   width: 960px;
   height: 370px;
-  background-color: pink;
+  
+  /* background-color: pink; */
 }
 h2 {
   padding-top: 5px;
   font-size: 20px;
+}
+
+p {
+  font-style: italic;
 }
 
 .scrollable {
